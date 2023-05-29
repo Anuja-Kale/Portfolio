@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anuja Kale</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/png" href="images/android-chrome-192x192.png">
+  <script src="https://kit.fontawesome.com/9e0473d325.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+
+    <div class="header-text">
+       <p>Frontend Developer</p>
+       <h1>Hi, I'm <span>Anuja Kale</span><br>
+        An empathetic Frontend Developer dedicated to crafting meaningful experiences, seamlessly integrating user insights with elegant web design solutions to create intuitive interfaces that captivate and inspire 🖥</h1>
+    </div>
+    </div>
+  </div>
+   <!----------------------about------------------------>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/anuja.png">
+        </div>
+        <div class="about-col-2">
+
+          <h1 class="sub-title">About Me</h1>
+          <p>As a current graduate student at Northeastern University, 
+            pursuing my master's degree in Information Systems, I am 
+            wholeheartedly passionate about Front-End Development. With a 
+            strong technical foundation from my Bachelor of Engineer in Information Technology,
+             I am dedicated to crafting exceptional user experiences through intuitive and 
+             captivating interfaces. Seamlessly integrating user insights with elegant web 
+             design solutions, I strive to stay at the forefront of industry trends, continuously 
+             learning and adapting to emerging technologies and best practices. 
+             Open to networking and collaboration, I am eager to connect with professionals
+              in the field to contribute my skills and make a positive impact as a Front-End Developer. </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Programming Language</span><br>SQL, Python (NumPy, TensorFlow, Matplotlib, Pandas, Keras), R, HTML, CSS, PHP, Java, JavaScript, Redux, React JS, REST APIs, Jquery, Node.js</li>
+                <li><span>Cloud</span><br>Heroku, AWS</li>
+                <li><span>Tools and Technologies</span><br>Microsoft Office Suite, Git, VS Code, Postman, MongoDB, Rest APIs, Moqups, Balsamiq, Figma, Axure, After Effects</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>June 2021 - August 2021</span><br>Full Stack Web Development internship at ShapeAi</li>
+                <li><span>July 2021- July 2021</span><br>Data Analytics Consulting Virtual Internship at KPGM</li>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2022 - Current</span><br>Masters in Information Systems at Northeastern University.</li>
+                <li><span>2018 - 2021</span><br>Bachelor of Engineering at Vidyalankar Institute Of Technology.</li>
+                <li><span>2015 - 2018</span><br>Diploma in Computer Engineering at Vidyavardhini's College of Engineering and Technology.</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!----------------------services------------------------>
+<div id="services">
+  <div class="container">
+    
+    <h1 class="sub-title">My Services</h1>
+     <div class="services-list">
+
+      <div>
+        <i class="fas fa-code"></i>
+        <h2>Web Design</h2>
+        <p>I am proficient in a wide range of technologies, including HTML, CSS, JavaScript, Angular, React, and Node.js. 
+          With expertise in these tools, I am able to create dynamic and interactive web designs 
+          that engage users and enhance their browsing experience. By leveraging the power of HTML, 
+          CSS, and JavaScript, I bring your designs to life, ensuring they are visually appealing and
+           responsive across different devices. Whether it's utilizing Angular or React to build robust 
+           front-end applications or harnessing the capabilities of Node.js for server-side development, 
+           I am well-equipped to handle diverse web design projects. </p>
+           <!-- <a href="https://en.wikipedia.org/wiki/Web_design">Learn more</a> -->
+      </div>
+      
+      <div>
+        <i class="fas fa-crop-alt"></i>
+        <h2>UI/UX</h2>
+        <p>In my services, I provide exceptional User Interface (UI) and User Experience (UX) solutions, focusing on creating meaningful, intuitive, and visually appealing
+           experiences for your target audience. By incorporating user insights and conducting thorough research, I ensure that every interaction with your product or service
+            is seamless, engaging, and memorable. From wireframing and prototyping to UI design and UX testing, I employ a user-centered approach to craft interfaces that not only meet your business
+             objectives but also captivate and inspire users. With a keen eye for aesthetics and a deep understanding of user behavior, I strive to deliver outstanding UI/UX solutions that leave a lasting impact and drive user satisfaction. </p>
+           <!-- <a href="https://en.wikipedia.org/wiki/User_interface_design">Learn more</a> -->
+      </div>
+
+      <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2>App Design</h2>
+        <p>In app design, I specialize in creating engaging and user-centric experiences through
+          a user-centered approach. From wireframing and prototyping to high-fidelity designs, 
+          I carefully craft intuitive and visually appealing interfaces that captivate users.
+           By considering factors like information architecture, visual hierarchy, and usability,
+            I ensure a delightful and memorable user experience. With a focus on platform-specific
+             design guidelines, I create consistent and cohesive app designs that align with the target 
+             audience's needs and provide a native-like experience.</p>
+           <!-- <a href="https://en.wikipedia.org/wiki/Mobile_app_development">Learn more</a> -->
+      </div>
+
+     </div>
+  </div>
+</div>
+
+  <!----------------------portfolio------------------------>
+<div id="portfolio">
+  <div class="container">
+
+     <h1 class="sub-title">My Work</h1>
+     <div class="work-list">
+      <div class="work">
+        <img src="images/work-1.png">
+        <div class="layer">
+          <h3>Foodlicious an online food ordering system </h3>
+          <p>Foodlicious is an online food ordering system that
+             allows customers to order a wide range of foods directly 
+             from the website. The system was developed and implemented 
+             using React, Node.js, Express.js, and MongoDB. 
+             It features user and admin dashboards for efficient management
+              of users, products, and orders. Customers can track their
+               orders in real-time and receive updates. The system ensures secure user authentication, 
+               integrates with Stripe for seamless payment processing, and offers a user-friendly food ordering experience.</p>
+            <a href="https://github.com/Anuja-Kale/Foodilicious"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            
+        </div>
+        
+      </div>
+
+      <div class="work">
+        <img src="images/work-2.png">
+        <div class="layer">
+          <h3>Simple Invest</h3>
+          <p>
+            Designed and implemented a user-friendly UI for SimpleInvest,
+             resulting in improved user engagement and increased user
+              satisfaction. Conducted extensive user research to identify 
+              pain points and areas of improvement, which were addressed 
+              in the updated UI design. Created a detailed Figma design of the updated UI for reference. </p>
+            <a href="https://www.figma.com/file/1zNPAyHfYsbqnMmCNdVQcL/Simple-Invest-Final-Project?type=design&node-id=0-1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/work-3.png">
+        <div class="layer">
+          <h3>Intelligent Drive Assistance System</h3>
+          <p>
+            Developed a non-intrusive driver drowsiness detection system using Computer Vision 
+            to prevent accidents caused by driver fatigue and sleepiness. Conducted research and 
+            implemented techniques like the Haar face detection algorithm to detect drowsiness based 
+            on facial features and image processing. Presented solutions and results in a comprehensive
+             report, emphasizing the potential for further optimization and improved efficiency of the 
+             system to enhance road safety. </p>
+            <a href="https://github.com/Anuja-Kale/Intelligent-Drive-Assistance-System"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+     </div>
+     <a href="#" class="btn">See more</a>
+    </div>
+</div>
+ <!----------------------contact------------------------>
+ <div id="contact">
+  <div class="container">
+  <div class="row">
+  <div class="contact-left">
+    <h1 class="sub-title">Contact Me</h1>
+    <p><i class="fa-solid fa-paper-plane"></i> kale.an@northeastern.edu</p>
+    <p><i class="fa-solid fa-phone"></i> +1 857-693-8725</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/profile.php?id=100071126291901&mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://twitter.com/AnujaKale8"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://instagram.com/anujakale_?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/anuja-kale-350b061a7/"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <a href="images/anujakale_Resume.pdf" download class="btn btn2">Download Resume</a>
+  </div>
+   <!-- <div class="contact-right">
+    <form name="submit-to-google-sheet">
+      <input type="text" name="Name" placeholder="Your Name" required>
+      <input type="email" name="Email" placeholder="Your Email" required>
+      <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+      <button type="submit" class="btn btn2">Submit</button>
+    </form>
+    <span id="msg"></span>
+   </div> -->
+
+ 
+  <!----------------------audio------------------------>
+  <!-- <div id="audio">
+    <div class="container">
+    
+  
+       <h1 class="sub-title">My Audio</h1>
+</div>
+<audio controls>
+ <source  src="images/audio.mp3" type="audio/mpeg">
+</audio> -->
+
+<div class="copyright">
+  <p>Copyright ©. Anuja. Made with 🧡 by Anuja Kale</p>
+</div> 
+
+
+
+  <script>
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+   
+   function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+   }
+  </script>
+
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+  
+
+<!-- <script>
+  const scriptURL = '<>'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script> -->
+
+
+
+</body>
+</html>
